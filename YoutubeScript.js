@@ -197,6 +197,7 @@ source.saveState = () => {
 
 
 //Home
+/*
 source.getHome = () => {
     let initialData = null;
     if(!_prefetchHomeUsed && _prefetchHomeAuth != null) {
@@ -211,7 +212,7 @@ source.getHome = () => {
 		throw new ScriptException("No tabs found..");
 	return new RichGridPager(tabs[0], {}, USE_MOBILE_PAGES, true);
 };
-
+*/
 //Search
 source.searchSuggestions = (query) => {
 	const suggestionsResp = http.GET(URL_SEARCH_SUGGESTIONS + query + "&hl=" + langDisplay.toLowerCase() + "&gl=" + langRegion.toLowerCase(), {});
