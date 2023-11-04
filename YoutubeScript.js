@@ -648,7 +648,7 @@ function constructUrl(base, queryParams) {
 	}
 	return url;
 }
-
+/*
 source.getComments = (url) => {
     url = convertIfShortUrl(url);
 
@@ -670,8 +670,7 @@ source.getSubComments = (comment) => {
 	else
 		return new CommentPager([], false);
 };
-
-
+*/
 
 //Channel
 source.isChannelUrl = (url) => {
@@ -2269,9 +2268,9 @@ function extractVideoPage_VideoDetails(initialData, initialPlayerData, contextDa
 		video.datetime = parseInt(scheduledTime);
 
     const result = new PlatformVideoDetails(video);
-    result.getComments = function() {
+   /* result.getComments = function() {
         return extractTwoColumnWatchNextResultContents_CommentsPager(contextData.url, contentsContainer?.contents)
-    };
+    };*/
     return result;
 }
 function toSRTTime(sec, withDot) {
