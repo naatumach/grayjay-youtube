@@ -1,2 +1,3 @@
 # grayjay-youtube
-![image](https://github.com/naatumach/grayjay-youtube/assets/10781804/ef21e911-6a38-427d-84e0-839b0de9a9ce)
+
+![image](https://github.com/naatumach/grayjay-youtube/assets/10781804/b798addc-0b4e-427f-9bc0-be01fdf59fb6)
