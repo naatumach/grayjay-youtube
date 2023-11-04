@@ -4,7 +4,7 @@
     "author": "Vaibhav Sharma",
     "authorUrl": "https://github.com/naatumach/grayjay-youtube",
     "platformUrl": "https://youtube.com",
-    "sourceUrl": "https://github.com/naatumach/grayjay-youtube/YoutubeConfig.json",
+    "sourceUrl": "https://raw.githubusercontent.com/naatumach/grayjay-youtube/main/YoutubeConfig.json",
     "repositoryUrl": "https://github.com/naatumach/grayjay-youtube",
     "scriptUrl": "./YoutubeScript.js",
     "version": 137,
